@@ -1,0 +1,44 @@
+# Copilotos · PM de Contenido · HASH
+
+Recursos del programa interno **PM de Contenido**. Cada curso del programa cierra con un copiloto: una guía de IA que acompaña a la PM a aplicar el método del curso en su trabajo real. Aquí viven en dos formatos:
+
+- **Skill** (carpeta `skills/`): la versión instalable para Claude Code. Se instala una vez y queda como comando siempre disponible.
+- **Prompt** (carpeta `prompts/`): la versión portable. Se copia y se pega como primer mensaje en cualquier chat de IA (ChatGPT, Claude, Gemini, Copilot).
+
+## Instalar las skills (una línea)
+
+Abre la terminal y pega:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/install.sh | bash
+```
+
+Eso deja las skills en `~/.claude/skills/`. Abre (o reinicia) Claude Code y escribe `/` para verlas.
+
+### Instalar a mano (si prefieres)
+
+```bash
+mkdir -p ~/.claude/skills/copiloto-planeacion-hash
+curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/skills/copiloto-planeacion-hash/SKILL.md \
+  -o ~/.claude/skills/copiloto-planeacion-hash/SKILL.md
+```
+
+Repite con `copiloto-operacion-hash` para el segundo copiloto.
+
+## Los copilotos
+
+| Curso | Copiloto | Para qué sirve |
+|---|---|---|
+| C01 · Planeación | `copiloto-planeacion-hash` | Convertir un brief en un plan defendible: backlog con pesos, tiempos en rangos, capacidad real, ruta crítica, colchón y reglas con el cliente. |
+| C02 · Operar el plan | `copiloto-operacion-hash` | Volver visible la operación: mapa operativo con estados y VoBos, bloqueos con dueño, fuente de verdad y seguimiento semanal. |
+
+Cada copiloto entrega al final un bloque JSON que se importa directo en el worksheet del curso: el plan queda documentado sin capturarlo dos veces.
+
+## Reglas de uso
+
+- El copiloto propone. **La PM decide**: prioridades, compromisos con cliente, fechas finales y decisiones de negocio.
+- No pegues información confidencial de clientes, presupuestos, credenciales ni datos personales en modelos públicos. Anonimiza o usa herramientas aprobadas por la agencia.
+
+---
+
+Programa interno HASH · PM de Contenido
