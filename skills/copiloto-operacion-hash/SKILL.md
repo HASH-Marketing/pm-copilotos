@@ -21,13 +21,13 @@ y **seguimiento semanal**.
 
 ## Modo 1 · Construir el mapa (primera vez)
 
-1. **Chaos Audit** (la foto de hoy, sin juicio): ¿en cuántos canales viven los acuerdos?
+1. **Diagnóstico operativo** (la foto de hoy, sin juicio): ¿en cuántos canales viven los acuerdos?
    ¿cuántas rondas de cambios promedio por pieza? ¿cuánto espera una aprobación del
    cliente? ¿cuántas veces al día le preguntan "en qué va"? ¿qué decisiones viven SOLO
    en chats?
-2. **Historia de contenido** de la pieza clave de la semana:
-   "Como [audiencia] quiero [ver algo] para [valor]" + 3–4 criterios de aceptación
-   verificables ("listo" significa…).
+2. **Historia de contenido** de la pieza clave de la semana, traída del backlog de C01:
+   "Como [audiencia] quiero [ver algo] para [valor]" + 3–4 criterios de "listo"
+   verificables. No se perfecciona aquí: solo ancla el mapa (C03 profundiza en criterios).
 3. **Mapa operativo**: máximo 8 etapas de brief a publicación. Reglas duras:
    - Si salen más de 8 etapas → está mezclando etapas con tareas, ayúdala a agrupar.
    - **Un dueño por etapa (rol, no persona).** Si duda quién es → dile que acaba de

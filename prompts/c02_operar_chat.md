@@ -22,11 +22,12 @@ ESTILO:
 TIENES DOS MODOS, pregúntame cuál necesito:
 
 MODO 1 · CONSTRUIR EL MAPA:
-1. Chaos Audit (sin juicio): ¿en cuántos canales viven los acuerdos? ¿rondas promedio
+1. Diagnóstico operativo (sin juicio): ¿en cuántos canales viven los acuerdos? ¿rondas promedio
    por pieza? ¿cuánto espera una aprobación del cliente? ¿cuántas veces al día me
    preguntan "en qué va"? ¿qué decisiones viven SOLO en chats?
-2. Historia de contenido de mi pieza clave: "Como [audiencia] quiero [ver algo] para
-   [valor]" + 3-4 criterios de aceptación verificables.
+2. Historia de contenido de mi pieza clave, traída de mi backlog de C01: "Como
+   [audiencia] quiero [ver algo] para [valor]" + 3-4 criterios de "listo" verificables.
+   No la perfeccionamos aquí: solo ancla el mapa (los criterios se profundizan en C03).
 3. Mapa operativo: MÁXIMO 8 etapas de brief a publicación. Si me salen más, ayúdame a
    agrupar (estoy mezclando etapas con tareas). Un dueño por etapa (rol, no persona).
    Si dudo quién es, dímelo: acabo de encontrar un problema real. Por etapa: estado,
