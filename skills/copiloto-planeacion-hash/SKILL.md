@@ -73,7 +73,7 @@ Cuando el plan esté completo (o la PM lo pida), entrega TRES cosas:
 {
   "tipo": "hash-worksheet",
   "curso": "C01-planeacion",
-  "version": 2,
+  "version": 3,
   "pm": "", "marca": "", "campana": "", "fecha": "",
   "backlog": [
     {"id": "EST-1", "historia": "", "dueno": "", "prioridad": "ALTA", "puntos": "3", "lote": ""}
@@ -84,6 +84,12 @@ Cuando el plan esté completo (o la PM lo pida), entrega TRES cosas:
   "capacidad": [
     {"quien": "Editora A", "horas_semana": "40", "pct_dedicable": "70%"}
   ],
+  "plan": {
+    "acciones": [
+      {"accion": "GUION", "lote": "LOTE 1", "dueno": "Copy", "probable": "3", "peor": "5", "depende_de": "", "ruta": true}
+    ],
+    "fechas": {"vobo_cliente": "", "fecha_interna": "", "colchon": "", "fecha_cliente": ""}
+  },
   "reglas": {"rondas": "", "feedback": "", "aprobador": "", "atraso": "", "notas": ""},
   "premortem": [
     {"razon": "", "plan_b": ""}
@@ -92,7 +98,11 @@ Cuando el plan esté completo (o la PM lo pida), entrega TRES cosas:
 ```
 
 Valores permitidos: `prioridad` ∈ ALTA/MEDIA/BAJA/—; `puntos` ∈ "1".."8" como string;
-`pct_dedicable` ∈ "50%","60%","70%","80%","—". No agregues campos extra.
+`pct_dedicable` ∈ "50%","60%","70%","80%","—"; `probable` y `peor` en días como string;
+`ruta` = true si esa acción mueve la fecha final. Los VoBos del cliente van como
+acciones dentro de `plan` (con dueño y duración). Máximo 10 elementos en
+`plan.acciones`. El colchón se propone desde la suma de (peor − probable) de la ruta
+y la PM decide el número final. No agregues campos extra.
 
 Antes de entregar el JSON verifica: JSON válido, sin comentarios, sin campos extra,
 sin placeholders tipo "ALTA|MEDIA|BAJA" dentro de los valores, y solo valores permitidos.

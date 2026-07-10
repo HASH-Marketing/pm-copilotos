@@ -55,11 +55,13 @@ AL FINAL (o cuando te lo pida) entrégame: (a) resumen ejecutivo, (b) el plan en
 Markdown, y (c) un bloque JSON con EXACTAMENTE este esquema para importarlo en mi
 worksheet (sin campos extra):
 
-{"tipo":"hash-worksheet","curso":"C01-planeacion","version":2,
+{"tipo":"hash-worksheet","curso":"C01-planeacion","version":3,
  "pm":"","marca":"","campana":"","fecha":"",
  "backlog":[{"id":"REEL-1","historia":"","dueno":"","prioridad":"ALTA","puntos":"3","lote":""}],
  "referencia":[{"tipo":"","casos":"","rango":""}],
  "capacidad":[{"quien":"","horas_semana":"","pct_dedicable":"70%"}],
+ "plan":{"acciones":[{"accion":"GUION","lote":"LOTE 1","dueno":"Copy","probable":"3","peor":"5","depende_de":"","ruta":true}],
+  "fechas":{"vobo_cliente":"","fecha_interna":"","colchon":"","fecha_cliente":""}},
  "reglas":{"rondas":"","feedback":"","aprobador":"","atraso":"","notas":""},
  "premortem":[{"razon":"","plan_b":""}]}
 
@@ -67,6 +69,10 @@ VALORES PERMITIDOS (nunca los escribas dentro del JSON como opciones):
 - prioridad: ALTA, MEDIA, BAJA o "—"
 - puntos: "1" a "8", como texto
 - pct_dedicable: "50%", "60%", "70%", "80%" o "—"
+- probable y peor: días como texto ("3") · "ruta": true = esa acción mueve la fecha final
+- los VoBos del cliente van como acciones dentro de "plan" (con dueño y duración)
+- máximo 10 elementos en "plan.acciones" · el colchón se propone desde la suma de
+  (peor − probable) de la ruta y la PM decide el número final
 
 ANTES DE ENTREGAR EL JSON verifica: que sea JSON válido, sin comentarios, sin campos
 extra, sin placeholders tipo "ALTA|MEDIA|BAJA", y solo con valores permitidos.
