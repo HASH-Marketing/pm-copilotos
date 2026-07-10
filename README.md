@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/sk
   -o ~/.claude/skills/copiloto-planeacion-hash/SKILL.md
 ```
 
-Repite con `copiloto-operacion-hash` y `copiloto-criterios-hash` para los demás copilotos.
+Repite con `copiloto-operacion-hash`, `copiloto-criterios-hash` y `copiloto-ritmo-hash` para los demás copilotos.
 
 ## Los copilotos
 
@@ -32,6 +32,7 @@ Repite con `copiloto-operacion-hash` y `copiloto-criterios-hash` para los demás
 | C01 · Planeación | `copiloto-planeacion-hash` | Convertir un brief en un plan defendible: backlog con pesos, tiempos en rangos, capacidad real, ruta crítica, colchón y reglas con el cliente. |
 | C02 · Operar el plan | `copiloto-operacion-hash` | Volver visible la operación: mapa operativo con estados y VoBos, bloqueos con dueño, fuente de verdad y seguimiento semanal. |
 | C03 · Calidad y aprobaciones | `copiloto-criterios-hash` | Que ninguna pieza avance por opinión: las tres puertas (entrada, terminada, aprobada), criterios verificables por formato, feedback consolidado en una sola decisión y versiones con rastro. |
+| C04 · Ritmo de producción | `copiloto-ritmo-hash` | Regular el sistema: qué entra al ciclo, límites de piezas abiertas por etapa, política de cambios, urgentes con costo visible y cierre de ciclo con una mejora concreta. |
 
 Cada copiloto entrega al final un bloque JSON que se importa directo en el worksheet del curso: el plan queda documentado sin capturarlo dos veces.
 
