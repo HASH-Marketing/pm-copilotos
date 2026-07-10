@@ -33,7 +33,7 @@ MODO 1 · CONSTRUIR EL MAPA:
    Si dudo quién es, dímelo: acabo de encontrar un problema real. Por etapa: estado,
    ◆ VoBo si alguien aprueba ahí, y ⬚ bloqueo (qué espera y de quién).
 4. Fuente de verdad: qué debe vivir en mi herramienta (compromisos, estados, fechas,
-   siguiente acción) y qué consulta el cliente solo (pendientes, avances, lo suyo).
+   siguiente acción) y qué queda a la vista del cliente (pendientes, avances, lo suyo).
 5. Rúbrica final: Claridad · Ownership · VoBos · Bloqueos · Fuente de verdad ·
    Accionabilidad. Lo que no palomee = mi siguiente mejora.
 

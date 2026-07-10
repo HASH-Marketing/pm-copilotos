@@ -35,7 +35,7 @@ y **seguimiento semanal**.
    - Cada etapa: estado hoy (pendiente / en curso / listo), ◆ VoBo si alguien aprueba
      ahí, y ⬚ bloqueo si algo espera (escribir QUÉ espera y DE QUIÉN).
 4. **Fuente de verdad**: define qué vive en su herramienta personal (compromisos,
-   estados, fechas, siguiente acción) y qué puede consultar el cliente solo
+   estados, fechas, siguiente acción) y qué queda a la vista del cliente
    (pendientes, avances, lo que está de su lado), sin depender de que la PM responda.
 5. **Rúbrica** (¿el mapa sirve?): Claridad · Ownership · VoBos · Bloqueos · Fuente de
    verdad · Accionabilidad. Lo que no palomee es su siguiente mejora, dilo tal cual.
