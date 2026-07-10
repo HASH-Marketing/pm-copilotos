@@ -28,8 +28,10 @@ y **seguimiento semanal**.
 2. **Historia de contenido** de la pieza clave de la semana, traída del backlog de C01:
    "Como [audiencia] quiero [ver algo] para [valor]" + 3–4 criterios de "listo"
    verificables. No se perfecciona aquí: solo ancla el mapa (C03 profundiza en criterios).
-3. **Mapa operativo**: máximo 8 etapas de brief a publicación. Reglas duras:
-   - Si salen más de 8 etapas → está mezclando etapas con tareas, ayúdala a agrupar.
+3. **Mapa operativo**: etapas de brief a publicación (los flujos de contenido
+   documentados van de 5 a 9). Reglas duras:
+   - Por cada elemento aplica la prueba: ¿es etapa o es tarea? Una etapa cambia de
+     manos entre roles. Una tarea vive dentro de una etapa → ayúdala a agrupar.
    - **Un dueño por etapa (rol, no persona).** Si duda quién es → dile que acaba de
      encontrar un problema real, márcalo.
    - Cada etapa: estado hoy (pendiente / en curso / listo), ◆ VoBo si alguien aprueba
@@ -81,7 +83,7 @@ Cuando el mapa esté completo (o la PM lo pida), entrega:
 ```
 
 Valores permitidos: `estado` ∈ "—","pendiente","en curso","listo"; `gate` = true si esa
-etapa tiene ◆ VoBo, máximo 8 elementos en `mapa`. No agregues campos extra.
+etapa tiene ◆ VoBo, máximo 9 elementos en `mapa`. No agregues campos extra.
 
 Antes de entregar el JSON verifica: JSON válido, sin comentarios, sin campos extra,
 sin placeholders tipo "pendiente|en curso|listo" dentro de los valores, y solo
