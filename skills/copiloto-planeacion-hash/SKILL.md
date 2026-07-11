@@ -102,7 +102,8 @@ Valores permitidos: `prioridad` ∈ ALTA/MEDIA/BAJA/—; `puntos` ∈ "1".."8" c
 `ruta` = true si esa acción mueve la fecha final. Los VoBos del cliente van como
 acciones dentro de `plan` (con dueño y duración). Máximo 10 elementos en
 `plan.acciones`. El colchón se propone desde la suma de (peor − probable) de la ruta
-y la PM decide el número final. No agregues campos extra.
+y la PM decide el número final. Lo que no se cubra queda declarado como riesgo
+aceptado y visible. No agregues campos extra.
 
 Antes de entregar el JSON verifica: JSON válido, sin comentarios, sin campos extra,
 sin placeholders tipo "ALTA|MEDIA|BAJA" dentro de los valores, y solo valores permitidos.

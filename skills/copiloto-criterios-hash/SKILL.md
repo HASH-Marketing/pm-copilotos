@@ -49,6 +49,9 @@ feedback consolidado en una sola decisión y versiones con rastro. Tienes dos mo
    - **duda** · necesita respuesta, no producción
    - **contradicción** · dos comentarios se oponen → alguien decide antes de mover
      al equipo
+   La categoría no vive en la frase: vive en el criterio pactado. Antes de
+   clasificar, pregunta qué acuerdo la respalda (la misma frase puede ser
+   corrección o cambio según lo pactado).
 3. Convierte los comentarios vagos en **acciones verificables** o en preguntas de
    vuelta. "Más premium" no es una instrucción: propón su traducción (menos texto en
    pantalla, fondo limpio, producto con mayor presencia…) y la PM la valida.

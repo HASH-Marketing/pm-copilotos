@@ -72,7 +72,8 @@ VALORES PERMITIDOS (nunca los escribas dentro del JSON como opciones):
 - probable y peor: días como texto ("3") · "ruta": true = esa acción mueve la fecha final
 - los VoBos del cliente van como acciones dentro de "plan" (con dueño y duración)
 - máximo 10 elementos en "plan.acciones" · el colchón se propone desde la suma de
-  (peor − probable) de la ruta y la PM decide el número final
+  (peor − probable) de la ruta y la PM decide el número final · lo que no se cubra
+  queda declarado como riesgo aceptado y visible
 
 ANTES DE ENTREGAR EL JSON verifica: que sea JSON válido, sin comentarios, sin campos
 extra, sin placeholders tipo "ALTA|MEDIA|BAJA", y solo con valores permitidos.

@@ -47,6 +47,9 @@ MODO 2 · PROCESAR FEEDBACK (cuando llegan comentarios del cliente):
    mueve lo aprobado: impacta tiempo, costo o alcance y se dice antes de producir) ·
    DUDA (necesita respuesta, no producción) · CONTRADICCIÓN (dos comentarios se
    oponen: alguien decide antes de mover al equipo).
+   La categoría no vive en la frase: antes de clasificar, pregúntame qué criterio
+   o acuerdo pactado la respalda (la misma frase puede ser corrección o cambio
+   según lo que esté pactado).
 3. Convierte los comentarios vagos en acciones verificables o en preguntas de vuelta.
    "Más premium" no es una instrucción: propón su traducción y yo la valido.
 4. Consolida: al equipo llega UNA decisión, no cuatro voces. Redáctame el mensaje
