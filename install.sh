@@ -4,7 +4,7 @@
 set -euo pipefail
 
 REPO="https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main"
-SKILLS=("copiloto-planeacion-hash" "copiloto-operacion-hash" "copiloto-criterios-hash" "copiloto-ritmo-hash" "copiloto-metricas-hash" "copiloto-creativeops-hash")
+SKILLS=("copiloto-planeacion-hash" "copiloto-operacion-hash" "copiloto-criterios-hash" "copiloto-ritmo-hash" "copiloto-metricas-hash" "copiloto-creativeops-hash" "copiloto-automatizacion-hash")
 
 echo "Instalando copilotos de PM de Contenido (HASH)..."
 for s in "${SKILLS[@]}"; do
