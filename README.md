@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/sk
   -o ~/.claude/skills/copiloto-planeacion-hash/SKILL.md
 ```
 
-Repite con los demás copilotos: `copiloto-operacion-hash`, `copiloto-criterios-hash`, `copiloto-ritmo-hash`, `copiloto-metricas-hash`, `copiloto-creativeops-hash` y `copiloto-automatizacion-hash`.
+Repite con los demás copilotos: `copiloto-operacion-hash`, `copiloto-criterios-hash`, `copiloto-ritmo-hash`, `copiloto-metricas-hash`, `copiloto-creativeops-hash`, `copiloto-automatizacion-hash` y `copiloto-flujosia-hash`.
 
 ## Los copilotos
 
@@ -36,6 +36,7 @@ Repite con los demás copilotos: `copiloto-operacion-hash`, `copiloto-criterios-
 | C05 · Data-Driven PM | `copiloto-metricas-hash` | Leer datos para decidir la semana con dos lados separados: proceso (¿cómo estamos trabajando?) y público (¿qué funciona afuera?), con diccionario de métricas, alertas con umbral y máximo 3 decisiones con dueño y fecha. |
 | C06 · Creative Ops y Escalabilidad | `copiloto-creativeops-hash` | Convertir una familia de contenido recurrente en un sistema reutilizable: master con ID, variantes enlazadas, versiones con estado, ficha con derechos y vigencia, y entregas completas. Marca PENDIENTE cuando falta evidencia. |
 | C07 · Automatización No-Técnica | `copiloto-automatizacion-hash` | Convertir una tarea repetida en una especificación no-code verificable: contrato (cuándo, para, si, entonces, registra), checkpoint humano, excepciones, duplicados, permisos, seis pruebas y monitoreo. Marca BLOQUEO DE DISEÑO cuando falta un campo, permiso o responsable. |
+| C08 · AI Workflows para PMs | `copiloto-flujosia-hash` | Diseñar un flujo donde un paso lo hace un modelo de IA sobre una fuente no estructurada: límite del paso, fuentes y política de datos, instrucción versionada, checkpoint humano, rúbrica crítico/calidad y seis casos de prueba. Separa lo que queda en la sesión de lo que exige el piloto. |
 
 Cada copiloto entrega al final un bloque JSON que se importa directo en el worksheet del curso: el plan queda documentado sin capturarlo dos veces.
 
