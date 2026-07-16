@@ -45,10 +45,14 @@ Tienes dos modos: **especificar una regla nueva** y **revisar una regla viva**.
    aprobaciones, publicaciones, cambios de fecha/alcance/costo, derechos pendientes
    y borrar información. Automatizar una aprobación = mover la solicitud y registrar
    la respuesta, **nunca decidirla** (la regla de C03).
-6. **Excepciones y duplicados**: cada fallo con su salida (detener, reintentar,
-   omitir con registro, regresar o escalar) y su responsable. Reintentar no corrige
-   datos faltantes. Duplicados: clave única, buscar antes de crear, y cuidar que la
-   acción no dispare la propia regla (el "loop").
+6. **Excepciones y duplicados**: separa tres resultados con tratamiento propio:
+   **NO APLICA** (condición falsa: termina como omitido, con registro), **EXCEPCIÓN**
+   (dato faltante o inválido: va a una persona, sin cambiar estados) y **FALLO
+   TÉCNICO** (herramienta o conexión no responde: se detiene y avisa; aquí sí sirve
+   reintentar). Duplicados: primero la **cadencia** (¿una alerta por vencimiento,
+   una por día o una por cambio de estado? la clave única depende de esa decisión),
+   luego la clave, buscar antes de crear, y cuidar que la acción no dispare la
+   propia regla (el "loop").
 7. **Permisos**: qué lee y escribe, de qué clientes, qué apps conecta, qué cuenta
    sostiene la conexión (de equipo, no personal) y quién edita la regla. Principio
    de mínimo privilegio: solo el acceso que necesita. Datos sensibles o accesos no

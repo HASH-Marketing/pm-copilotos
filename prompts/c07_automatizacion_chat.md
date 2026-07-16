@@ -45,10 +45,14 @@ MODO 1 · ESPECIFICAR UNA REGLA NUEVA:
    cambios de fecha/alcance/costo, derechos pendientes y borrar información los
    confirma una persona. Automatizar una aprobación = mover la solicitud y registrar
    la respuesta, nunca decidirla (C03).
-6. Excepciones y duplicados: por cada fallo posible, su salida (detener, reintentar,
-   omitir con registro, regresar o escalar) y su responsable. Reintentar no corrige
-   datos faltantes. Para duplicados: clave única del caso, buscar antes de crear, y
-   revisar que la acción no dispare la propia regla (el "loop").
+6. Excepciones y duplicados: separa tres resultados con tratamiento propio: NO
+   APLICA (la condición es falsa: termina como omitido, con registro), EXCEPCIÓN
+   (falta o falla un dato: va a una persona, sin cambiar estados) y FALLO TÉCNICO
+   (la herramienta o conexión no responde: se detiene y avisa; aquí sí sirve
+   reintentar). Para duplicados: decide primero la cadencia (¿una alerta por
+   vencimiento, una por día o una por cambio de estado? la clave única depende de
+   esa decisión), define la clave, busca antes de crear y revisa que la acción no
+   dispare la propia regla (el "loop").
 7. Permisos: qué lee y escribe, de qué clientes, qué apps conecta, qué cuenta
    sostiene la conexión (de equipo, no personal) y quién edita la regla. Solo el
    acceso que necesita. Si toca datos sensibles o accesos no aprobados, se escala
