@@ -18,26 +18,26 @@ Eso deja las skills en `~/.claude/skills/`. Abre (o reinicia) Claude Code y escr
 ### Instalar a mano (si prefieres)
 
 ```bash
-mkdir -p ~/.claude/skills/copiloto-planeacion-hash
-curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/skills/copiloto-planeacion-hash/SKILL.md \
-  -o ~/.claude/skills/copiloto-planeacion-hash/SKILL.md
+mkdir -p ~/.claude/skills/copiloto-planeacion
+curl -fsSL https://raw.githubusercontent.com/HASH-Marketing/pm-copilotos/main/skills/copiloto-planeacion/SKILL.md \
+  -o ~/.claude/skills/copiloto-planeacion/SKILL.md
 ```
 
-Repite con los demás copilotos: `copiloto-operacion-hash`, `copiloto-criterios-hash`, `copiloto-ritmo-hash`, `copiloto-metricas-hash`, `copiloto-creativeops-hash`, `copiloto-automatizacion-hash`, `copiloto-flujosia-hash` y `copiloto-recomendacion-hash`.
+Repite con los demás copilotos: `copiloto-operacion`, `copiloto-criterios`, `copiloto-ritmo`, `copiloto-metricas`, `copiloto-creativeops`, `copiloto-automatizacion`, `copiloto-flujosia` y `copiloto-recomendacion`.
 
 ## Los copilotos
 
 | Curso | Copiloto | Para qué sirve |
 |---|---|---|
-| C01 · Planeación | `copiloto-planeacion-hash` | Convertir un brief en un plan defendible: backlog con pesos, tiempos en rangos, capacidad real, ruta crítica, colchón y reglas con el cliente. |
-| C02 · Operar el plan | `copiloto-operacion-hash` | Volver visible la operación: mapa operativo con estados y VoBos, bloqueos con dueño, fuente de verdad y seguimiento semanal. |
-| C03 · Calidad y aprobaciones | `copiloto-criterios-hash` | Que ninguna pieza avance por opinión: las tres puertas (entrada, terminada, aprobada), criterios verificables por formato, feedback consolidado en una sola decisión y versiones con rastro. |
-| C04 · Ritmo de producción | `copiloto-ritmo-hash` | Regular el sistema: qué entra al ciclo, límites de piezas abiertas por etapa, política de cambios, urgentes con costo visible y cierre de ciclo con una mejora concreta. |
-| C05 · Data-Driven PM | `copiloto-metricas-hash` | Leer datos para decidir la semana con dos lados separados: proceso (¿cómo estamos trabajando?) y público (¿qué funciona afuera?), con diccionario de métricas, alertas con umbral y máximo 3 decisiones con dueño y fecha. |
-| C06 · Creative Ops y Escalabilidad | `copiloto-creativeops-hash` | Convertir una familia de contenido recurrente en un sistema reutilizable: master con ID, variantes enlazadas, versiones con estado, ficha con derechos y vigencia, y entregas completas. Marca PENDIENTE cuando falta evidencia. |
-| C07 · Automatización No-Técnica | `copiloto-automatizacion-hash` | Convertir una tarea repetida en una especificación no-code verificable: contrato (cuándo, para, si, entonces, registra), checkpoint humano, excepciones, duplicados, permisos, seis pruebas y monitoreo. Marca BLOQUEO DE DISEÑO cuando falta un campo, permiso o responsable. |
-| C08 · AI Workflows para PMs | `copiloto-flujosia-hash` | Diseñar un flujo donde un paso lo hace un modelo de IA sobre una fuente no estructurada: límite del paso, fuentes y política de datos, instrucción versionada, checkpoint humano, rúbrica crítico/calidad y seis casos de prueba. Separa lo que queda en la sesión de lo que exige el piloto. |
-| C09 · PM Estratégico para Marcas | `copiloto-recomendacion-hash` | Convertir la evidencia de la cuenta en un brief de decisión trimestral: objetivo confirmado, evidencia con límites, hipótesis con alternativas, tres opciones comparadas, una recomendación y una iniciativa de 90 días con medición. La persona con autoridad decide y queda registrado quién. |
+| C01 · Planeación | `copiloto-planeacion` | Convertir un brief en un plan defendible: backlog con pesos, tiempos en rangos, capacidad real, ruta crítica, colchón y reglas con el cliente. |
+| C02 · Operar el plan | `copiloto-operacion` | Volver visible la operación: mapa operativo con estados y VoBos, bloqueos con dueño, fuente de verdad y seguimiento semanal. |
+| C03 · Calidad y aprobaciones | `copiloto-criterios` | Que ninguna pieza avance por opinión: las tres puertas (entrada, terminada, aprobada), criterios verificables por formato, feedback consolidado en una sola decisión y versiones con rastro. |
+| C04 · Ritmo de producción | `copiloto-ritmo` | Regular el sistema: qué entra al ciclo, límites de piezas abiertas por etapa, política de cambios, urgentes con costo visible y cierre de ciclo con una mejora concreta. |
+| C05 · Data-Driven PM | `copiloto-metricas` | Leer datos para decidir la semana con dos lados separados: proceso (¿cómo estamos trabajando?) y público (¿qué funciona afuera?), con diccionario de métricas, alertas con umbral y máximo 3 decisiones con dueño y fecha. |
+| C06 · Creative Ops y Escalabilidad | `copiloto-creativeops` | Convertir una familia de contenido recurrente en un sistema reutilizable: master con ID, variantes enlazadas, versiones con estado, ficha con derechos y vigencia, y entregas completas. Marca PENDIENTE cuando falta evidencia. |
+| C07 · Automatización No-Técnica | `copiloto-automatizacion` | Convertir una tarea repetida en una especificación no-code verificable: contrato (cuándo, para, si, entonces, registra), checkpoint humano, excepciones, duplicados, permisos, seis pruebas y monitoreo. Marca BLOQUEO DE DISEÑO cuando falta un campo, permiso o responsable. |
+| C08 · AI Workflows para PMs | `copiloto-flujosia` | Diseñar un flujo donde un paso lo hace un modelo de IA sobre una fuente no estructurada: límite del paso, fuentes y política de datos, instrucción versionada, checkpoint humano, rúbrica crítico/calidad y seis casos de prueba. Separa lo que queda en la sesión de lo que exige el piloto. |
+| C09 · PM Estratégico para Marcas | `copiloto-recomendacion` | Convertir la evidencia de la cuenta en un brief de decisión trimestral: objetivo confirmado, evidencia con límites, hipótesis con alternativas, tres opciones comparadas, una recomendación y una iniciativa de 90 días con medición. La persona con autoridad decide y queda registrado quién. |
 
 Cada copiloto entrega al final un bloque JSON que se importa directo en el worksheet del curso: el plan queda documentado sin capturarlo dos veces.
 
