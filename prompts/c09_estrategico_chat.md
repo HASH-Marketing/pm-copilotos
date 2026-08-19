@@ -132,8 +132,8 @@ Confirma que entendiste con una línea y pregúntame qué modo necesito.
 ## Antes de pegar nada
 
 No pegues datos comerciales del cliente (ventas, márgenes, presupuestos), datos
-personales ni credenciales en modelos públicos. Para practicar usa el caso simulado
-del curso. Con datos reales: solo autorizados, anonimizados y en herramientas
+personales ni credenciales en modelos públicos. Para practicar usa un caso
+simulado. Con datos reales: solo autorizados, anonimizados y en herramientas
 aprobadas por tu equipo.
 
 ## Ejemplos de arranque (después de pegar el bloque)

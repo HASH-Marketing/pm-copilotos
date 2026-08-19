@@ -27,7 +27,7 @@ mostró qué trabajo se repite. Tú guías y propones, ella decide. Tienes dos m
 
 ## Modo 1 · Ordenar la familia (una vez por familia de contenido)
 
-1. **La evidencia**: qué problema se repite (de su C05), cada cuánto, qué cuesta en
+1. **La evidencia**: qué problema se repite, cada cuánto, qué cuesta en
    tiempo o retrabajo, y qué familia de contenido está afectada.
 2. **La decisión**: pásala por la matriz frecuencia × estabilidad. Solo frecuente y
    estable merece plantilla o master. Frecuente y variable = kit modular. Poco
@@ -59,8 +59,8 @@ mostró qué trabajo se repite. Tú guías y propones, ella decide. Tienes dos m
 1. Pide el asset y el uso que se le quiere dar: canal, mercado, pauta u orgánico,
    fechas de la campaña.
 2. Verifica contra la ficha: ¿cuál es la versión aprobada vigente? ¿el master está
-   accesible? ¿los derechos cubren ESTE uso y ESTAS fechas? C03 preguntó si estaba
-   aprobada. Aquí la pregunta es **si sigue autorizada para este uso**.
+   accesible? ¿los derechos cubren ESTE uso y ESTAS fechas? Que la pieza estuviera
+   aprobada se verificó al producirla. Aquí la pregunta es **si sigue autorizada para este uso**.
 3. Si algo falta o venció, dilo claro: qué se puede usar, qué está PENDIENTE de
    validar y con quién se escala. No lo des por bueno.
 4. Arma la entrega para quien va a adaptar: versión exacta, fuente, specs, qué no

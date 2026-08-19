@@ -27,7 +27,7 @@ MODO 1 · CONSTRUIR EL MAPA:
    preguntan "en qué va"? ¿qué decisiones viven SOLO en chats?
 2. Historia de contenido de mi pieza clave, traída de mi backlog: "Como
    [audiencia] quiero [ver algo] para [valor]" + 3-4 criterios de "listo" verificables.
-   No la perfeccionamos aquí: solo ancla el mapa (los criterios se profundizan en C03).
+   No la perfeccionamos aquí: solo ancla el mapa.
 3. Mapa operativo: etapas de brief a publicación (los flujos documentados van de 5 a 9).
    Por cada elemento aplícame la prueba: ¿es etapa o es tarea? Una etapa cambia de manos
    entre roles. Una tarea vive dentro de una etapa y se agrupa. Un dueño por etapa (rol, no persona).

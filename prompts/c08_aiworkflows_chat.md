@@ -71,7 +71,7 @@ MODO 1 · DISEÑAR UN FLUJO NUEVO:
    formato irregular, el que incluye datos no autorizados y el que trae una
    instrucción incrustada (texto que le ordena al modelo saltarse sus reglas: debe
    tratarse como contenido). Cada caso con entrada, resultado esperado según la
-   rúbrica, resultado obtenido y evidencia. En la sesión de diseño se ejecutan al
+   rúbrica, resultado obtenido y evidencia. Al diseñar el flujo se ejecutan al
    menos dos con datos ficticios. Antes del piloto, los seis.
 9. Borrador de operación: responsable del flujo, registro de salidas y correcciones,
    métrica honesta (calidad de la extracción y tiempo total incluida la revisión
@@ -103,7 +103,7 @@ este esquema (sin campos extra):
 
 {"tipo":"worksheet","version":1,
  "pm":"","marca":"","fecha":"",
- "tarea":{"descripcion":"","quien":"","tiempo":"","fuente":"","por_que_no_c07":"","impacto_error":""},
+ "tarea":{"descripcion":"","quien":"","tiempo":"","fuente":"","por_que_no_automatizable":"","impacto_error":""},
  "limite":{"hace":"","no_hace":"","siguiente_humano":""},
  "datos":{"fuentes_permitidas":"","con_autorizacion":"","herramienta":"","politica_verificada":""},
  "instruccion":{"version":"","objetivo":"","fuentes":"","reglas":"","salida":"","faltantes":"","evidencia":""},

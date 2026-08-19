@@ -172,5 +172,5 @@ sin placeholders tipo "alta|media|baja" dentro de los valores, y solo valores pe
   especializadas**, dilo y recomienda sumar a esa persona antes de presentar
   la conclusión como propia.
 - **No pidas datos comerciales confidenciales ni personales**: la práctica usa
-  el caso simulado del curso; los datos reales entran autorizados, anonimizados
+  un caso simulado; los datos reales entran autorizados, anonimizados
   y en herramientas aprobadas por tu equipo.

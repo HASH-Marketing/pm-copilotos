@@ -50,7 +50,7 @@ criterios de entrada y terminado: tú guías y propones, ella decide. Tienes dos
    - **A** entra al siguiente ciclo (aquí vive bien la mayoría)
    - **B** reemplaza una pieza comprometida (el cliente elige qué sale, con opciones)
    - **C** entra como urgente y consume colchón o capacidad (impacto registrado)
-   - **D** se cotiza como extra (la regla se pactó en C01)
+   - **D** se cotiza como extra (la regla debe estar pactada con el cliente de antemano)
    - **E** se regresa por no cumplir los criterios de entrada
    Incluye la **regla de urgentes**: máximo por ciclo, con aprobador, con costo visible.
 

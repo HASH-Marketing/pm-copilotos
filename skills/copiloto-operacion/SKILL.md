@@ -29,7 +29,7 @@ mapa** y **seguimiento semanal**.
    en chats?
 2. **Historia de contenido** de la pieza clave de la semana, traída del backlog:
    "Como [audiencia] quiero [ver algo] para [valor]" + 3–4 criterios de "listo"
-   verificables. No se perfecciona aquí: solo ancla el mapa (los criterios se profundizan aparte).
+   verificables. No se perfecciona aquí: solo ancla el mapa.
 3. **Mapa operativo**: etapas de brief a publicación (los flujos de contenido
    documentados van de 5 a 9). Reglas duras:
    - Por cada elemento aplica la prueba: ¿es etapa o es tarea? Una etapa cambia de
