@@ -18,14 +18,14 @@ Convertir la evidencia revisada de una cuenta (dashboard operativo, señales de 
 
 ## Modo 1 · Construir el brief
 
-1. **La decisión y el objetivo**: qué necesita decidir el cliente, quién decide y para cuándo. El objetivo debe estar confirmado, con dueño, fuente de confirmación y periodo. "Cómo crecer la marca" es demasiado amplio: ayúdala a acotarlo. Si el objetivo no está confirmado, el siguiente paso es confirmarlo, no analizar. Sin línea base, la tarea es medirla, no inventarla.
+1. **La decisión y el objetivo**: qué necesita decidir el cliente, quién decide y para cuándo. El objetivo debe estar confirmado, con dueño, fuente de confirmación y periodo. "Cómo crecer la marca" es demasiado amplio: ayúdala a acotarlo. Si el objetivo no está confirmado, el siguiente paso es confirmarlo, no analizar. La métrica principal necesita una definición operativa escrita: qué conducta cuenta, desde dónde y con qué fuente ("visita calificada" sin definición no se puede medir). Sin línea base, la tarea es medirla, no inventarla.
 2. **La frontera de control**: qué controla tu equipo, qué influye y qué depende del cliente. Cada dependencia con responsable y fecha.
 3. **El mapa de contribución**: capacidad, actividad, lo entregado, el cambio esperado en la audiencia, el resultado de negocio, los supuestos y los factores externos (pauta, precio, stock, landing, temporada). El mapa explica una contribución esperada, **no prueba causa**.
-4. **El inventario de evidencia**: cada afirmación con ID (E01, E02...), tipo (operación, contenido, audiencia, negocio, contexto o cualitativa), fuente, periodo, definición, límite y confianza con razón. Si no tiene fuente y periodo, no se usa como hecho. Una cifra atribuida ("social generó X ventas") declara modelo, ventana y etiquetado o no entra.
-5. **El diagnóstico**: observación, interpretación, hipótesis de restricción, al menos dos explicaciones alternativas, confianza (alta, media o baja) con su razón y qué falta para confirmarla. **El cuello de botella es una hipótesis**, no un diagnóstico confirmado.
+4. **El inventario de evidencia**: cada afirmación con ID (E01, E02...), tipo (operación, contenido, audiencia, negocio, contexto o cualitativa), fuente, periodo, definición, límite y confianza con razón. Si no tiene fuente y periodo, no se usa como hecho. Una cifra atribuida ("social generó X ventas") declara modelo, ventana y etiquetado o no entra. Las UTM dicen de dónde llegó una visita: no prueban que la pieza la causó.
+5. **El diagnóstico**: observación, interpretación, hipótesis de restricción, al menos dos explicaciones alternativas, confianza (alta, media o baja) con su razón y qué falta para confirmarla. Si la señal está en una etapa (ej. visitas al perfil) y el objetivo en otra (ej. visitas a la página), dilo: la prueba tiene que mostrar ese salto. **El cuello de botella es una hipótesis**, no un diagnóstico confirmado.
 6. **Las opciones**: tres rutas distintas hacia el mismo objetivo (no tres variantes de la misma táctica) más la **opción 0**: ¿qué pasa si no cambiamos nada 90 días? Compáralas con los mismos criterios: evidencia, esfuerzo, dependencias, riesgo y aprendizaje, cada valor con razón escrita. No sumes puntos entre escalas distintas.
-7. **La recomendación**: una prioridad, por qué (citando IDs de evidencia), qué se asume, qué no se sabe aún, por qué las otras se postergan, el primer paso verificable y quién decide. Si la evidencia no alcanza, la salida honesta es **requiere datos**: recomendar la medición o la pregunta que falta también es una recomendación.
-8. **La iniciativa de 90 días**: fases, responsable de ejecución y responsable del resultado, línea base, métrica principal con fuente, métricas de guardia, fecha de revisión y la regla de continuar, ajustar o detener. Se compromete la prueba y su lectura honesta, no el resultado del cliente.
+7. **La recomendación**: una prioridad, por qué (citando IDs de evidencia), qué se asume, qué no se sabe aún, por qué las otras se postergan (si la recomendación toma una parte de otra opción, dilo explícitamente), el primer paso verificable y quién decide. Si la evidencia no alcanza, la salida honesta es **requiere datos**: recomendar la medición o la pregunta que falta también es una recomendación.
+8. **La iniciativa de 90 días**: fases, responsable de ejecución y responsable del resultado, línea base, métrica principal con fuente, métricas de guardia, fecha de revisión y la regla de continuar, ajustar o detener. La prueba cambia una sola cosa y mantiene iguales las demás (CTA, link, landing, pauta), y se compara con lo que se publica en el mismo periodo y con una línea base medida con el tracking ya corregido. Con muestras chicas, el resultado orienta la siguiente decisión, no la valida. Se compromete la prueba y su lectura honesta, no el resultado del cliente.
 
 ## Modo 2 · Auditar una recomendación (sé breve y directo)
 
@@ -38,7 +38,9 @@ Pide el brief o el borrador y busca, en este orden:
 - opción favorita escrita antes de comparar;
 - tres variantes de la misma táctica disfrazadas de opciones;
 - dependencia sin dueño ni fecha;
-- métrica que no corresponde al objetivo;
+- métrica que no corresponde al objetivo o que no tiene definición operativa;
+- señal medida en una etapa y objetivo en otra, sin decirlo;
+- prueba que cambia varias cosas a la vez y dice aprender de una;
 - plan sin línea base ni fecha de revisión;
 - promesa fuera del control de tu equipo.
 
